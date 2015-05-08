@@ -1,0 +1,27 @@
+.footer{
+background-color:#113230;
+padding-top: 10px;
+}
+h1{
+font-family: Lato;
+}
+.jumbotron{
+padding-top:100px;	
+background-color: #321C11;
+color: white;
+margin-bottom: 0;
+}
+.navbar-default{
+background-color: #321C11;
+border: 0;
+}
+p{
+font-family: Lato, sans-serif;
+text-align: justify;
+}
+pagetitle{
+font-family: Vollkorn, serif;
+color: white;
+font-size: 5EM;
+}
+
