@@ -1,3 +1,7 @@
+.carousel{
+width:1200px;
+margin:0 auto;
+}
 .footer{
 background-color:#113230;
 padding-top: 10px;
@@ -24,4 +28,5 @@ font-family: Vollkorn, serif;
 color: white;
 font-size: 5EM;
 }
+
 
