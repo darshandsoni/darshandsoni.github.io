@@ -27,6 +27,20 @@ border: 2px solid black;
 text-decoration: none;
 }
 
+.btn-muted{
+background: #333;
+color: grey;
+border: 2px solid grey;
+text-decoration: none;
+}
+
+.btn-muted:hover{
+background: #333;
+color: black;
+border: 2px solid black;
+text-decoration: none;
+}
+
 .carousel{
 width:1200px;
 margin:0 auto;
