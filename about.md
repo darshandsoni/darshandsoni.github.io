@@ -8,6 +8,7 @@ permalink: /about/
 	
 	<h3>About me</h3>
 	
+    <!--
 	<div class="col-lg-3">
 		<img class="img-responsive" src="/assets/ProfilePicture.jpg" alt="Profile Picture">	
 	</div>
@@ -21,4 +22,7 @@ permalink: /about/
 			My professional interests involve urban planning with a strong focus in mass transit systems, public information design and information architecture.
 		</p>
 	</div>
+
+-->
+    
 </div>	
