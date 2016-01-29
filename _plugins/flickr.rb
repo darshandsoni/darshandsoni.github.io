@@ -1,113 +1,26 @@
-require 'flickraw'
+require 'liquid'
+require 'fleakr'
 
-module Jekyll
+Fleakr.api_key       = "349f2e154f66eac6d552d2fc74211c00"
+Fleakr.shared_secret = "d611e66056b44292"
+Fleakr.auth_token    = "72157664005092346-5728d65756e448c5"
 
-  class GeneratePhotosets < Generator
+CACHED_IMAGES = {}
 
-    safe true
-    priority :low
-
-    def generate(site)
-        generate_photosets(site) if (site.config['flickr']['enabled'])
+module Flickr
+    def flickr_image(url)
+        "<img alt='#{image_object(url).title}' src='#{image_object(url).large.url}'>"
     end
 
-    def generate_photosets(site)
-      site.posts.each do |p|
-        p.data['photos'] = load_photos(p.data['photoset'], site) if p.data['photoset']
-      end
+    def flickr_medium_image(url)
+        "<img alt='#{image_object(url).title}' src='#{image_object(url).medium.url}'>"
     end
 
-    def load_photos(photoset, site)
-      if cache_dir = site.config['flickr']['cache_dir']
-        path = File.join(cache_dir, "#{Digest::MD5.hexdigest(photoset.to_s)}.yml")
-        if File.exist?(path)
-          photos = YAML::load(File.read(path))
-        else
-          photos = generate_photo_data(photoset, site)
-          File.open(path, 'w') {|f| f.print(YAML::dump(photos)) }
-        end
-      else
-        photos = generate_photo_data(photoset, site)
-      end
+    private
 
-      photos
-
+    def image_object(url)
+        CACHED_IMAGES[url] ||= Fleakr.resource_from_url(url)
     end
-
-    def generate_photo_data(photoset, site)
-
-      returnSet = Array.new
-
-      FlickRaw.api_key = site.config['flickr']['api_key']
-      FlickRaw.shared_secret = site.config['flickr']['shared_secret']
-
-      auth = flickr.auth.checkToken :auth_token => site.config['flickr']['auth_token']
-
-      photos = flickr.photosets.getPhotos :photoset_id => photoset
-
-      photos.photo.each_index do | i |
-
-        title = photos.photo[i].title
-        id = photos.photo[i].id
-        fullSizeUrl = String.new
-        urlThumb = String.new
-        urlFull = String.new
-        thumbType = String.new
-
-        sizes = flickr.photos.getSizes(:photo_id => id).to_a
-        sizes.each do | s |
-
-          if s.width.to_i < 1200
-            urlFull = s.source
-          end
-
-          if s.label == 'Small' && i < 3
-            urlThumb = s.source
-            thumbType = 'thumbnail'
-          end
-
-          if s.label == 'Square' && i >= 3
-            urlThumb = s.source
-            thumbType = 'square'
-          end
-
-        end
-
-        photo = FlickrPhoto.new(title, urlFull, urlThumb, thumbType)
-        returnSet.push photo
-
-      end
-
-      #sleep a little so that you don't get in trouble for bombarding the Flickr servers
-      sleep 1
-
-      returnSet
-
-    end
-
-  end
-
-  class FlickrPhoto
-
-    attr_accessor :title, :urlFullSize, :urlThumbnail, :thumbType
-
-    def initialize(title, urlFullSize, urlThumbnail, thumbType)
-      @title = title
-      @urlFullSize = urlFullSize
-      @urlThumbnail = urlThumbnail
-      @thumbType = thumbType
-    end
-
-    def to_liquid
-      {
-        'title' => title,
-        'urlFullSize' => urlFullSize,
-        'urlThumbnail' => urlThumbnail,
-        'thumbType' => thumbType
-      }
-
-    end
-
-  end
-
 end
+
+Liquid::Template.register_filter(Flickr)
