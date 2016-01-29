@@ -12,3 +12,11 @@ github_username:  darshandsoni
 
 # Build settings
 markdown: kramdown
+
+flickr:
+    cache_dir: "./_cache/flickr"
+    api_key:  349f2e154f66eac6d552d2fc74211c00 
+    shared_secret: d611e66056b44292
+    access_token: 72157664005092346-5728d65756e448c5
+    access_secret: e332fc088464f248
+    
