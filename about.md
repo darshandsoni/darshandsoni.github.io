@@ -5,12 +5,12 @@ permalink: /about/
 ---
 
 <div class="container">
-	
+
 	<h3>About me</h3>
-	
-    <!--
+
+
 	<div class="col-lg-3">
-		<img class="img-responsive" src="/assets/ProfilePicture.jpg" alt="Profile Picture">	
+		<img class="img-responsive" src="/assets/ProfilePicture.jpg" alt="Profile Picture">
 	</div>
 
 	<div class="col-lg-9">
@@ -23,6 +23,6 @@ permalink: /about/
 		</p>
 	</div>
 
--->
-    
-</div>	
+
+
+</div>

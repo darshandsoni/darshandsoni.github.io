@@ -18,7 +18,7 @@ gems:
 
 500px_consumer_key_file: 500px-consumer-key
 
-image: https://images.unsplash.com/photo-1434472007488-8d47f604f644
+image: /assets/truss.png
 
 #flickr:
 #    cache_dir: ./_cache/flickr
