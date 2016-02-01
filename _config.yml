@@ -18,7 +18,7 @@ gems:
 
 500px_consumer_key_file: 500px-consumer-key
 
-image: /assets/truss.png
+image: /assets/ProfilePicture.jpg
 
 #flickr:
 #    cache_dir: ./_cache/flickr
