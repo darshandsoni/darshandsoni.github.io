@@ -13,9 +13,6 @@ github_username:  darshandsoni
 # Build settings
 markdown: kramdown
 
-gems:
--jekyll-500px-embed
-
 500px_consumer_key_file: 500px-consumer-key
 
 #flickr:
