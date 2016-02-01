@@ -19,5 +19,3 @@ permalink: /blog/
 
 
 </div>
-
-<img class="img-responsive" src="{{ page.image }}">
