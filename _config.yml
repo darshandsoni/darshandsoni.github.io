@@ -16,7 +16,7 @@ markdown: kramdown
 gems:
   - jekyll-auto-image
 
-image: http://darshandsoni.com/assets/truss.png
+image: http://placehold.it/200x200
 
 500px_consumer_key_file: 500px-consumer-key
 
