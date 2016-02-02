@@ -6,9 +6,63 @@
 </description>
     <link>//</link>
     <atom:link href="//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 02 Feb 2016 10:25:08 -0800</pubDate>
-    <lastBuildDate>Tue, 02 Feb 2016 10:25:08 -0800</lastBuildDate>
+    <pubDate>Tue, 02 Feb 2016 11:30:11 -0800</pubDate>
+    <lastBuildDate>Tue, 02 Feb 2016 11:30:11 -0800</lastBuildDate>
     <generator>Jekyll v3.1.1</generator>
+    
+      <item>
+        <title>Adding images to Jekyll&#39;s post feed - without plugins</title>
+        <description>&lt;p&gt;The &lt;a href=&quot;https://github.com/merlos/jekyll-auto-image&quot;&gt;jekyll-auto-image&lt;/a&gt; plugin is a pretty useful tool to get thumbnail images to display on a blog main page. However, this plugin is not yet supported by GitHub pages and will display broken image links if used with GitHub pages. In general, I prefer the minimalistic approach of using powerful liquid tags and plain old html to get the job done.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;This method assumes you are already implementing the &lt;a href=&quot;http://getbootstrap.com&quot;&gt;Bootstrap framework&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;adding-a-thumbnail-to-a-post&quot;&gt;1. Adding a thumbnail to a post&lt;/h3&gt;
+
+&lt;p&gt;Choose a thumbnail image, add it to an images folder in your root (e.g. /images/ or /assets/). Alternatively find a permanent url for an image you want to use.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-markdown&quot; data-lang=&quot;markdown&quot;&gt;&lt;span class=&quot;nn&quot;&gt;---&lt;/span&gt;
+&lt;span class=&quot;s&quot;&gt;layout&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;post&lt;/span&gt;
+&lt;span class=&quot;s&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;Title&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;goes&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;here&quot;&lt;/span&gt;
+&lt;span class=&quot;s&quot;&gt;categories&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;jekyll&lt;/span&gt;
+&lt;span class=&quot;s&quot;&gt;thumbnail&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;/images/customthumbnail.jpg&lt;/span&gt;
+&lt;span class=&quot;nn&quot;&gt;---&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h3 id=&quot;adding-a-default-thumbnail&quot;&gt;2. Adding a default thumbnail&lt;/h3&gt;
+
+&lt;p&gt;Sometimes, you may not have an appropriate thumbnail image for a particular post. In this case, we want jekyll to just use a default thumbnail saved in your images foler. Put a file in there named nothumbnail.jpg or similar.&lt;/p&gt;
+
+&lt;h3 id=&quot;adding-liquid-tags-to-render-thumbnails&quot;&gt;3. Adding Liquid tags to render thumbnails&lt;/h3&gt;
+
+&lt;p&gt;Here’s where the magic happens. We need the post directory to render the thumbnail image. In case there isn’t one, it should render the default thumbnail. On your blog’s directory page (e.g. blog.md), add the following liquid tag loops to do &lt;a href=&quot;https://truongtx.me/2013/01/05/thumbnail-post-list-for-jekyll-bootstrap/&quot;&gt;this&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;he standard Lorem Ipsum passage, used since the 1500s&lt;/p&gt;
+
+&lt;p&gt;“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.”
+Section 1.10.32 of “de Finibus Bonorum et Malorum”, written by Cicero in 45 BC&lt;/p&gt;
+
+&lt;p&gt;“Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?”
+1914 translation by H. Rackham&lt;/p&gt;
+
+&lt;p&gt;“But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?”
+Section 1.10.33 of “de Finibus Bonorum et Malorum”, written by Cicero in 45 BC&lt;/p&gt;
+
+&lt;p&gt;“At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.”
+1914 translation by H. Rackham&lt;/p&gt;
+
+&lt;p&gt;“On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue; and equal blame belongs to those who fail in their duty through weakness of will, which is the same as saying through shrinking from toil and pain. These cases are perfectly simple and easy to distinguish. In a free hour, when our power of choice is untrammelled and when nothing prevents our being able to do what we like best, every pleasure is to be welcomed and every pain avoided. But in certain circumstances and owing to the claims of duty or the obligations of business it will frequently occur that pleasures have to be repudiated and annoyances accepted. The wise man therefore always holds in these matters to this principle of selection: he rejects pleasures to secure other greater pleasures, or else he endures pains to avoid worse pains.”&lt;/p&gt;
+</description>
+        <pubDate>Tue, 02 Feb 2016 00:00:00 -0800</pubDate>
+        <link>//jekyll/2016/02/02/adding-images-to-jekyll-post-feed.html</link>
+        <guid isPermaLink="true">//jekyll/2016/02/02/adding-images-to-jekyll-post-feed.html</guid>
+        
+        
+        <category>jekyll</category>
+        
+      </item>
     
       <item>
         <title>Reasons why TransLink is a complete failure</title>
