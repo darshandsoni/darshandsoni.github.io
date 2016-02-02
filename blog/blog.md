@@ -10,7 +10,11 @@ permalink: /blog/
   {% for post in site.posts %}
   <div class="col-sm-4">
     <div class="thumbnail">
-      <img class="img-responsive" src="{{ @page.image }}">
+      {% if post.thumbnail %}
+        <img class="img-responsive" src="{{ post.thumbnail }}" align="center">
+      {% else %}
+        <img class="img-responsive" src="/assets/truss.png" align="center">
+      {% endif %}  
       <p>{{ post.date | date: "%F" }} | {% include read_time.html %}</p>
       <a href="{{ post.url }}"><h2>{{ post.title }}</h2></a>
     </div>
