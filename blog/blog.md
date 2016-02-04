@@ -14,9 +14,12 @@ permalink: /blog/
         <img class="img-responsive" src="{{ post.thumbnail }}" align="center">
       {% else %}
         <img class="img-responsive" src="/assets/truss.png" align="center">
-      {% endif %}  
-      <p>{{ post.date | date: "%F" }}</p>
+      {% endif %}
+      <p>{{ post.date | date: "%d %B %Y" }}</p>
       <a href="{{ post.url }}"><h2>{{ post.title }}</h2></a>
+      <div class="{{ post.categories }}">
+        <p>{{ post.categories }}</p>
+      </div>
     </div>
   </div>
   {% endfor %}

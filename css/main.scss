@@ -21,6 +21,11 @@ $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
 
+// Category colours
+
+$jekyll: #486c79;
+$transportation: #794854;
+
 // Width of the content area
 $content-width:    800px;
 
@@ -50,3 +55,17 @@ $on-laptop:        800px;
         "layout",
         "syntax-highlighting"
 ;
+
+// Category divs
+
+.Jekyll{
+  padding: 1%;
+  background-color: $jekyll;
+  color: white;
+}
+
+.Transportation{
+  padding: 1%;
+  background-color: $transportation;
+  color: white;
+}

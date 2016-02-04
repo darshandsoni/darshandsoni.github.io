@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Adding images to Jekyll's post feed - without plugins"
-categories: jekyll
+categories: Jekyll
 ---
 
 The [jekyll-auto-image](https://github.com/merlos/jekyll-auto-image) plugin is a pretty useful tool to get thumbnail images to display on a blog main page. However, this plugin is not yet supported by GitHub pages and will display broken image links if used with GitHub pages. In general, I prefer the minimalistic approach of using powerful liquid tags and plain old html to get the job done.

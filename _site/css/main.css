@@ -447,3 +447,13 @@ pre {
     color: #008080; }
   .highlight .il {
     color: #099; }
+
+.Jekyll {
+  padding: 1%;
+  background-color: #486c79;
+  color: white; }
+
+.Transportation {
+  padding: 1%;
+  background-color: #794854;
+  color: white; }

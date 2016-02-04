@@ -6,8 +6,8 @@
 </description>
     <link>//</link>
     <atom:link href="//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 02 Feb 2016 11:30:11 -0800</pubDate>
-    <lastBuildDate>Tue, 02 Feb 2016 11:30:11 -0800</lastBuildDate>
+    <pubDate>Thu, 04 Feb 2016 12:39:32 -0800</pubDate>
+    <lastBuildDate>Thu, 04 Feb 2016 12:39:32 -0800</lastBuildDate>
     <generator>Jekyll v3.1.1</generator>
     
       <item>
@@ -60,7 +60,7 @@ Section 1.10.33 of “de Finibus Bonorum et Malorum”, written by Cicero in 45 
         <guid isPermaLink="true">//jekyll/2016/02/02/adding-images-to-jekyll-post-feed.html</guid>
         
         
-        <category>jekyll</category>
+        <category>Jekyll</category>
         
       </item>
     
@@ -69,13 +69,11 @@ Section 1.10.33 of “de Finibus Bonorum et Malorum”, written by Cicero in 45 
         <description>&lt;p&gt;TransLink is a failure because…&lt;/p&gt;
 </description>
         <pubDate>Mon, 01 Feb 2016 00:00:00 -0800</pubDate>
-        <link>//transport/engineering/2016/02/01/Reasons-TransLink-is-a-complete-failure.html</link>
-        <guid isPermaLink="true">//transport/engineering/2016/02/01/Reasons-TransLink-is-a-complete-failure.html</guid>
+        <link>//transportation/2016/02/01/Reasons-TransLink-is-a-complete-failure.html</link>
+        <guid isPermaLink="true">//transportation/2016/02/01/Reasons-TransLink-is-a-complete-failure.html</guid>
         
         
-        <category>transport</category>
-        
-        <category>engineering</category>
+        <category>Transportation</category>
         
       </item>
     
@@ -97,13 +95,11 @@ Section 1.10.33 of “de Finibus Bonorum et Malorum”, written by Cicero in 45 
 
 </description>
         <pubDate>Tue, 27 Oct 2015 01:19:34 -0700</pubDate>
-        <link>//jekyll/update/2015/10/27/welcome-to-jekyll.html</link>
-        <guid isPermaLink="true">//jekyll/update/2015/10/27/welcome-to-jekyll.html</guid>
+        <link>//jekyll/2015/10/27/welcome-to-jekyll.html</link>
+        <guid isPermaLink="true">//jekyll/2015/10/27/welcome-to-jekyll.html</guid>
         
         
-        <category>jekyll</category>
-        
-        <category>update</category>
+        <category>Jekyll</category>
         
       </item>
     
