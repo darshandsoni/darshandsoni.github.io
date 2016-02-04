@@ -457,3 +457,6 @@ pre {
   padding: 1%;
   background-color: #794854;
   color: white; }
+
+.thumbnail {
+  border-color: #adadad; }

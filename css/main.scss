@@ -25,6 +25,7 @@ $grey-color-dark:  darken($grey-color, 25%);
 
 $jekyll: #486c79;
 $transportation: #794854;
+$lightbackground: #e8dcd8;
 
 // Width of the content area
 $content-width:    800px;
@@ -68,4 +69,8 @@ $on-laptop:        800px;
   padding: 1%;
   background-color: $transportation;
   color: white;
+}
+
+.thumbnail{
+  border-color: #adadad;
 }
