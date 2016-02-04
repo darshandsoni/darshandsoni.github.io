@@ -13,7 +13,7 @@ permalink: /blog/
       {% if post.thumbnail %}
         <img class="img-responsive" src="{{ post.thumbnail }}" align="center">
       {% else %}
-        <img class="img-responsive" src="/assets/{{ post.categories }}.jpg" align="center">
+        <img class="img-responsive" src="/assets/{{ post.categories | downcase }}.jpg" align="center">
       {% endif %}
       <p>{{ post.date | date: "%d %B %Y" }}</p>
       <a href="{{ post.url }}"><h2>{{ post.title }}</h2></a>
