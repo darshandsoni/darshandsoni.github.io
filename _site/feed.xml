@@ -6,8 +6,8 @@
 </description>
     <link>//</link>
     <atom:link href="//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 04 Feb 2016 14:57:34 -0800</pubDate>
-    <lastBuildDate>Thu, 04 Feb 2016 14:57:34 -0800</lastBuildDate>
+    <pubDate>Thu, 04 Feb 2016 17:02:06 -0800</pubDate>
+    <lastBuildDate>Thu, 04 Feb 2016 17:02:06 -0800</lastBuildDate>
     <generator>Jekyll v3.1.1</generator>
     
       <item>
@@ -66,7 +66,45 @@ Section 1.10.33 of “de Finibus Bonorum et Malorum”, written by Cicero in 45 
     
       <item>
         <title>Reasons why TransLink is a complete failure</title>
-        <description>&lt;p&gt;TransLink is a failure because…&lt;/p&gt;
+        <description>&lt;h4 id=&quot;the-new-flyer-fleet&quot;&gt;1. The New Flyer fleet&lt;/h4&gt;
+
+&lt;p&gt;TransLink uses a fleet consisting of almost only &lt;a href=&quot;http://www.translink.ca/-/media/Documents/plans_and_projects/expansion_upgrades/Fleet%20Pictorial.pdf&quot; target=&quot;_blank&quot;&gt;New Flyer and Nova buses&lt;/a&gt;; buses with hugely inferior quality when compared to European manufacturers such as Volvo. This one is a more prickly issue than poorly trained drivers: Both companies have manufacturing in Canada and we bring in the whole issue of sourcing locally and using a proudly Canadian fleet.&lt;/p&gt;
+
+&lt;h4 id=&quot;drivers&quot;&gt;2. Drivers&lt;/h4&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;I’m normally quite hesitant to critique a large group of hardworking individuals such as bus drivers. However, my critique of them here is not so much at them individually rather, how TransLink operates with them.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;When I first came to BC in 2012, one thing that struck me was the politeness of the drivers on board buses. Of course, there is the occasional grumpy driver, but overall the drivers I came across were courteous, sympathetic and caring. Welcome greetings were commonplace, the lack of correct fare was not met with the same scorn as in Paris or London and drivers were willing to get up and assist passengers. I suspect this stems from the broader culture of kindness and general decency prevalent in much of rural BC and embedded itself in the days when BC Transit still operated in Vancouver. Here are the issues I have with drivers:&lt;/p&gt;
+
+&lt;p&gt;Firstly, a large number of them go a step beyond common decency and happily engage in conversation with nearby passengers / supervisors. This is both &lt;em&gt;dangerous&lt;/em&gt; and &lt;em&gt;irresponsible&lt;/em&gt; on their part. What follows is that stops may sometimes be skipped, driving becomes erratic and customers waiting at “quiet” bus stops may be ignored. As a customer, I would much rather have a timely, reliable and safe experience than a polite driver. It’s not a lack of appreciation of their jovial nature, it’s a prioritising of safety above all else.&lt;/p&gt;
+
+&lt;p&gt;The second issue with them is largely down to the way TransLink allocates their routes. Unlike many other cities, Vancouver bus drivers get shuffled on their routes much more often. I suppose that this might be so as not to bore them, but the result is bus drivers who are not completely comfortable with their assigned route. A common sight is the west-bound 041 approaching UBC - some drivers inadvertently miss the turnng onto Wesbrook Mall, to the ire of everyone getting off at TRIUMF Centre or everyone waiting in Wesbrook Village.&lt;/p&gt;
+
+&lt;p&gt;The third and probably most important issue is their training with large vehicles. It hurts me to say that I consider Vancouver bus drivers to be amongst the worst when it comes to spatial awareness and ride comfort control. Anyone commuting may testify to a real bone-shaking ride if they’re standing. Yes, the problem is also down to the bus manufacturers using inferior suspension systems, and TransLink’s arbitrary “2 block stop distance” (something discussed separately here), but there are countless incidents where I have seen a driver accelerate rapidly away from a stop, ignoring the impending red light ahead and then slamming the breaks to stop at the intersection. I mean &lt;strong&gt;why? Seriously! Why?&lt;/strong&gt; And let’s not forget the nauseating tapping of the accelerator and brake pedals when waiting for the light to turn green… “Just wait for the bloody light to turn green”. It’s one of those things that is barely felt in a small car but amplified disturbingly on a large vehicle such as a bus.&lt;/p&gt;
+
+&lt;h4 id=&quot;switching-to-dynamic-scheduling&quot;&gt;3. Switching to dynamic scheduling&lt;/h4&gt;
+
+&lt;h4 id=&quot;incompatible-inter-service-changes&quot;&gt;9. Incompatible inter-service changes&lt;/h4&gt;
+
+&lt;h4 id=&quot;the-u-pass-tap-card-fiasco&quot;&gt;4. The U-Pass (tap card) fiasco&lt;/h4&gt;
+
+&lt;h4 id=&quot;stupidly-designed-fare-gates&quot;&gt;5. Stupidly designed fare gates&lt;/h4&gt;
+
+&lt;h4 id=&quot;different-branding-within-the-same-system&quot;&gt;6. Different branding within the same system&lt;/h4&gt;
+
+&lt;h4 id=&quot;poor-demarcation&quot;&gt;8. Poor demarcation&lt;/h4&gt;
+
+&lt;h4 id=&quot;evenly-spaced-stops-arbirarily&quot;&gt;7. Evenly spaced stops (arbirarily)&lt;/h4&gt;
+
+&lt;h4 id=&quot;lack-of-redundancy&quot;&gt;10. Lack of redundancy&lt;/h4&gt;
+
+&lt;h4 id=&quot;low-goals&quot;&gt;11. Low goals&lt;/h4&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Now, showing off about being North America’s Best transit system is like boasting about being the best student in the bottom 4 of a class of 30 students - it’s meaningless and nobody cares.&lt;/p&gt;
+&lt;/blockquote&gt;
 </description>
         <pubDate>Mon, 01 Feb 2016 00:00:00 -0800</pubDate>
         <link>//transportation/2016/02/01/Reasons-TransLink-is-a-complete-failure.html</link>
