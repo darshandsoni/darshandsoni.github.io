@@ -33,3 +33,13 @@ container-fluid {
   src: url("NotoSansGujarati-Regular.ttf") format("truetype"); }
 guj {
   font-family: 'Noto', sans-serif; }
+
+.greenbox {
+  background-color: #325444;
+  color: #84A998; }
+
+a.btn-default {
+  background-color: inherit;
+  color: #84A998;
+  border-width: medium;
+  border-color: #84A998; }
