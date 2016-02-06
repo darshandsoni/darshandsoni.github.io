@@ -11,6 +11,7 @@ html {
 }
 body {
   margin: 0;
+  border:0;
 }
 article,
 aside,
@@ -26,6 +27,7 @@ nav,
 section,
 summary {
   display: block;
+  border: 0;
 }
 audio,
 canvas,

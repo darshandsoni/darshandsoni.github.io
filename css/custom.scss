@@ -3,7 +3,7 @@
 ---
 
 $base-colour: #795548;/* Google brown 500 */
-$white-colour: #D7CCC8; 
+$white-colour: #D7CCC8;
 $black-colour: #3E2723;
 $grey-colour: #424242;
 
@@ -35,3 +35,21 @@ pagetitle{
 	color: $white-colour;
 }
 
+container{
+	border:0;
+}
+
+container-fluid{
+	border:0;
+}
+
+// Gujarati fonts addition
+
+@font-face{
+	font-family: 'Noto';
+	src: url('NotoSansGujarati-Regular.ttf') format('truetype'),
+}
+
+guj{
+	font-family: 'Noto', sans-serif;
+}

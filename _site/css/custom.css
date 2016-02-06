@@ -21,3 +21,15 @@ pagetitle {
   font-family: Vollkorn, serif;
   font-size: 72px;
   color: #D7CCC8; }
+
+container {
+  border: 0; }
+
+container-fluid {
+  border: 0; }
+
+@font-face {
+  font-family: 'Noto';
+  src: url("NotoSansGujarati-Regular.ttf") format("truetype"); }
+guj {
+  font-family: 'Noto', sans-serif; }
