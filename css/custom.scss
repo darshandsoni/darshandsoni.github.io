@@ -8,6 +8,7 @@ $black-colour: #3E2723;
 $grey-colour: #424242;
 $complementary: #325444;
 $complementary_light: #84A998;
+$footer-color: #BC9283;
 
 h1,h2,h3,h4{
 	font-family: Lato, sans-serif;
@@ -68,4 +69,10 @@ a.btn-default{
 	color: $complementary_light;
 	border-width: medium;
 	border-color: $complementary_light;
+}
+
+// Footer %%%%%%%%%%%%%%%%%%%
+
+.footer{
+	background-color: $footer-color;
 }
