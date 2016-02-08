@@ -12,6 +12,9 @@ github_username:  darshandsoni
 markdown: kramdown
 500px_consumer_key_file: 500px-consumer-key
 
+gems:
+  - jekyll-minifier
+
 #flickr:
 #    cache_dir: ./_cache/flickr
 #    api_key:  349f2e154f66eac6d552d2fc74211c00
