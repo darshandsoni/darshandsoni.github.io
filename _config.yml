@@ -15,6 +15,9 @@ markdown: kramdown
 gems:
   - jekyll-minifier
 
+jekyll-minifier:
+  exclude: sitemap.xml
+
 #flickr:
 #    cache_dir: ./_cache/flickr
 #    api_key:  349f2e154f66eac6d552d2fc74211c00
