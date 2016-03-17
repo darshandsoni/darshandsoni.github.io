@@ -6,6 +6,12 @@ author: Darshan Soni
 thumbnail: https://images.unsplash.com/photo-1452798991096-382940996d40
 ---
 
+<div class="alert alert-danger alert-dismissible" role="alert">
+  <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+  <strong>Content coming soon:</strong> This is a research post in progress. Check back soon for updates!
+</div>
+
+<!--
 #### 1. The New Flyer fleet
 
 TransLink uses a fleet consisting of almost only [New Flyer and Nova buses](http://www.translink.ca/-/media/Documents/plans_and_projects/expansion_upgrades/Fleet%20Pictorial.pdf){:target="_blank"}; buses with hugely inferior quality when compared to European manufacturers such as Volvo. This one is a more prickly issue than poorly trained drivers: Both companies have manufacturing in Canada and we bring in the whole issue of sourcing locally and using a proudly Canadian fleet.
@@ -41,3 +47,5 @@ The third and probably most important issue is their training with large vehicle
 #### 11. Low goals
 
 > Now, showing off about being North America's Best transit system is like boasting about being the best student in the bottom 4 of a class of 30 students - it's meaningless and nobody cares.
+
+-->

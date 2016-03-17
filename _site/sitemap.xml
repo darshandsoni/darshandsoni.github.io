@@ -46,21 +46,6 @@
     </url>
     
   
-    
-    <url>
-      <loc>http://darshandsoni.com/jekyll/2015/10/27/welcome-to-jekyll.html</loc>
-      
-        <lastmod>2015-10-27T01:19:34-07:00</lastmod>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.5</priority>
-      
-    </url>
-    
-  
 
   
     
@@ -70,7 +55,11 @@
     <url>
       <loc>http://darshandsoni.com</loc>
       
+<<<<<<< HEAD
         <lastmod>2016-03-17T14:56:28-07:00</lastmod>
+=======
+        <lastmod>2016-02-28T18:33:29-08:00</lastmod>
+>>>>>>> ed64cb2256d22cd0317b7596feac83cd02e3c79d
       
       
         <changefreq>monthly</changefreq>
@@ -98,7 +87,11 @@
     <url>
       <loc>http://darshandsoni.com</loc>
       
+<<<<<<< HEAD
         <lastmod>2016-03-17T14:56:28-07:00</lastmod>
+=======
+        <lastmod>2016-02-28T18:33:29-08:00</lastmod>
+>>>>>>> ed64cb2256d22cd0317b7596feac83cd02e3c79d
       
       
         <changefreq>monthly</changefreq>
@@ -126,7 +119,11 @@
     <url>
       <loc>http://darshandsoni.com/contact/</loc>
       
+<<<<<<< HEAD
         <lastmod>2016-03-17T14:56:28-07:00</lastmod>
+=======
+        <lastmod>2016-02-28T18:33:29-08:00</lastmod>
+>>>>>>> ed64cb2256d22cd0317b7596feac83cd02e3c79d
       
       
         <changefreq>monthly</changefreq>
@@ -154,7 +151,11 @@
     <url>
       <loc>http://darshandsoni.com/</loc>
       
+<<<<<<< HEAD
         <lastmod>2016-03-17T14:56:28-07:00</lastmod>
+=======
+        <lastmod>2016-02-28T18:33:29-08:00</lastmod>
+>>>>>>> ed64cb2256d22cd0317b7596feac83cd02e3c79d
       
       
         <changefreq>monthly</changefreq>
@@ -177,7 +178,11 @@
     <url>
       <loc>http://darshandsoni.com/contact/requests/</loc>
       
+<<<<<<< HEAD
         <lastmod>2016-03-17T14:56:28-07:00</lastmod>
+=======
+        <lastmod>2016-02-28T18:33:29-08:00</lastmod>
+>>>>>>> ed64cb2256d22cd0317b7596feac83cd02e3c79d
       
       
         <changefreq>monthly</changefreq>
@@ -200,7 +205,11 @@
     <url>
       <loc>http://darshandsoni.com/work/</loc>
       
+<<<<<<< HEAD
         <lastmod>2016-03-17T14:56:28-07:00</lastmod>
+=======
+        <lastmod>2016-02-28T18:33:29-08:00</lastmod>
+>>>>>>> ed64cb2256d22cd0317b7596feac83cd02e3c79d
       
       
         <changefreq>monthly</changefreq>
