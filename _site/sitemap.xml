@@ -3,6 +3,21 @@
   
     
     <url>
+      <loc>http://darshandsoni.com/jekyll/2016/03/19/Weekly-Updates-19-March-2016.html</loc>
+      
+        <lastmod>2016-03-19T00:00:00-07:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.5</priority>
+      
+    </url>
+    
+  
+    
+    <url>
       <loc>http://darshandsoni.com/jekyll/2016/02/07/Optimising-static-sites.html</loc>
       
         <lastmod>2016-02-07T00:00:00-08:00</lastmod>
@@ -55,11 +70,7 @@
     <url>
       <loc>http://darshandsoni.com</loc>
       
-<<<<<<< HEAD
-        <lastmod>2016-03-17T14:56:28-07:00</lastmod>
-=======
-        <lastmod>2016-02-28T18:33:29-08:00</lastmod>
->>>>>>> ed64cb2256d22cd0317b7596feac83cd02e3c79d
+        <lastmod>2016-03-19T17:46:01-07:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -87,11 +98,7 @@
     <url>
       <loc>http://darshandsoni.com</loc>
       
-<<<<<<< HEAD
-        <lastmod>2016-03-17T14:56:28-07:00</lastmod>
-=======
-        <lastmod>2016-02-28T18:33:29-08:00</lastmod>
->>>>>>> ed64cb2256d22cd0317b7596feac83cd02e3c79d
+        <lastmod>2016-03-19T17:46:01-07:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -119,11 +126,7 @@
     <url>
       <loc>http://darshandsoni.com/contact/</loc>
       
-<<<<<<< HEAD
-        <lastmod>2016-03-17T14:56:28-07:00</lastmod>
-=======
-        <lastmod>2016-02-28T18:33:29-08:00</lastmod>
->>>>>>> ed64cb2256d22cd0317b7596feac83cd02e3c79d
+        <lastmod>2016-03-19T17:46:01-07:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -151,11 +154,7 @@
     <url>
       <loc>http://darshandsoni.com/</loc>
       
-<<<<<<< HEAD
-        <lastmod>2016-03-17T14:56:28-07:00</lastmod>
-=======
-        <lastmod>2016-02-28T18:33:29-08:00</lastmod>
->>>>>>> ed64cb2256d22cd0317b7596feac83cd02e3c79d
+        <lastmod>2016-03-19T17:46:01-07:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -178,11 +177,7 @@
     <url>
       <loc>http://darshandsoni.com/contact/requests/</loc>
       
-<<<<<<< HEAD
-        <lastmod>2016-03-17T14:56:28-07:00</lastmod>
-=======
-        <lastmod>2016-02-28T18:33:29-08:00</lastmod>
->>>>>>> ed64cb2256d22cd0317b7596feac83cd02e3c79d
+        <lastmod>2016-03-19T17:46:01-07:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -205,11 +200,7 @@
     <url>
       <loc>http://darshandsoni.com/work/</loc>
       
-<<<<<<< HEAD
-        <lastmod>2016-03-17T14:56:28-07:00</lastmod>
-=======
-        <lastmod>2016-02-28T18:33:29-08:00</lastmod>
->>>>>>> ed64cb2256d22cd0317b7596feac83cd02e3c79d
+        <lastmod>2016-03-19T17:46:01-07:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
