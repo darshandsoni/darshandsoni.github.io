@@ -3,7 +3,7 @@
   
     
     <url>
-      <loc>http://darshandsoni.com/jekyll/2016/03/19/Weekly-Updates-19-March-2016.html</loc>
+      <loc>https://darshandsoni.com/jekyll/2016/03/19/Weekly-Updates-19-March-2016.html</loc>
       
         <lastmod>2016-03-19T00:00:00-07:00</lastmod>
       
@@ -18,7 +18,7 @@
   
     
     <url>
-      <loc>http://darshandsoni.com/jekyll/2016/02/07/Optimising-static-sites.html</loc>
+      <loc>https://darshandsoni.com/jekyll/2016/02/07/Optimising-static-sites.html</loc>
       
         <lastmod>2016-02-07T00:00:00-08:00</lastmod>
       
@@ -33,7 +33,7 @@
   
     
     <url>
-      <loc>http://darshandsoni.com/jekyll/2016/02/02/adding-images-to-jekyll-post-feed.html</loc>
+      <loc>https://darshandsoni.com/jekyll/2016/02/02/adding-images-to-jekyll-post-feed.html</loc>
       
         <lastmod>2016-02-02T00:00:00-08:00</lastmod>
       
@@ -48,7 +48,7 @@
   
     
     <url>
-      <loc>http://darshandsoni.com/transportation/2016/02/01/Reasons-TransLink-is-a-complete-failure.html</loc>
+      <loc>https://darshandsoni.com/transportation/2016/02/01/Reasons-TransLink-is-a-complete-failure.html</loc>
       
         <lastmod>2016-02-01T00:00:00-08:00</lastmod>
       
@@ -68,37 +68,9 @@
 
     
     <url>
-      <loc>http://darshandsoni.com</loc>
+      <loc>https://darshandsoni.com</loc>
       
-        <lastmod>2016-03-19T17:50:18-07:00</lastmod>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.3</priority>
-      
-    </url>
-    
-  
-    
-    
-
-    
-  
-    
-    
-
-    
-  
-    
-    
-
-    
-    <url>
-      <loc>http://darshandsoni.com</loc>
-      
-        <lastmod>2016-03-19T17:50:18-07:00</lastmod>
+        <lastmod>2016-05-05T21:54:31-07:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -124,9 +96,9 @@
 
     
     <url>
-      <loc>http://darshandsoni.com/contact/</loc>
+      <loc>https://darshandsoni.com</loc>
       
-        <lastmod>2016-03-19T17:50:18-07:00</lastmod>
+        <lastmod>2016-05-05T21:54:31-07:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -152,9 +124,37 @@
 
     
     <url>
-      <loc>http://darshandsoni.com/</loc>
+      <loc>https://darshandsoni.com/contact/</loc>
       
-        <lastmod>2016-03-19T17:50:18-07:00</lastmod>
+        <lastmod>2016-05-05T21:54:31-07:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    
+
+    
+  
+    
+    
+
+    
+  
+    
+    
+
+    
+    <url>
+      <loc>https://darshandsoni.com/</loc>
+      
+        <lastmod>2016-05-05T21:54:31-07:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -175,9 +175,9 @@
 
     
     <url>
-      <loc>http://darshandsoni.com/contact/requests/</loc>
+      <loc>https://darshandsoni.com/contact/requests/</loc>
       
-        <lastmod>2016-03-19T17:50:18-07:00</lastmod>
+        <lastmod>2016-05-05T21:54:31-07:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -198,9 +198,9 @@
 
     
     <url>
-      <loc>http://darshandsoni.com/work/</loc>
+      <loc>https://darshandsoni.com/work/</loc>
       
-        <lastmod>2016-03-19T17:50:18-07:00</lastmod>
+        <lastmod>2016-05-05T21:54:31-07:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
