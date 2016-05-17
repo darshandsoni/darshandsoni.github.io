@@ -16,7 +16,8 @@ gems:
   - jekyll-minifier
 
 jekyll-minifier:
-  exclude: sitemap.xml
+
+exclude: ["sitemap.xml","gulpfile.js","node_modules","package.json"]
 
 # HTTPS pointing for search engines
 url: https://darshandsoni.com
