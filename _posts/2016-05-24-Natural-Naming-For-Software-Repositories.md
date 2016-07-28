@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Natural Naming for Software Repositories"
-categories: Jekyll
+categories: Software
+thumbnail: https://hd.unsplash.com/photo-1420585269105-d908ec316eb3
 ---
 
 This story can also be found on [medium](https://medium.com/@darshandsoni/natural-naming-for-software-repositories-4842903d7a6c#.1zs0qvw85).

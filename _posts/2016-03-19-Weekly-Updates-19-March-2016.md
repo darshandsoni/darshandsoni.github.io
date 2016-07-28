@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Weekly Updates 19 March 2016"
-categories: Jekyll
+categories: Software
 ---
 # Weekly updates
 

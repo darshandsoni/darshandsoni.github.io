@@ -2,10 +2,12 @@
 # Fake front matter to ensure Jekyll reads the file
 ---
 
-$base-colour: #795548;/* Google brown 500 */
-$white-colour: #D7CCC8;
+$red-colour: #cc2936;/* Madder Lake */
+$beige-colour: #f1bf98; /* Pale Gold */
 $black-colour: #3E2723;
-$grey-colour: #424242;
+$platinum-colour: #eee5e9; /* Platinum */
+$grey-colour: #6b818c;
+$blue-colour: #08415c; /* Dark Imperial Blue */
 $complementary: #325444;
 $complementary_light: #84A998;
 $footer-color: #BC9283;
@@ -17,14 +19,16 @@ h1,h2,h3,h4{
 
 .jumbotron{
 	padding-top: 100px;
-	background-color: $base-colour;
+	background-color: $red-colour;
 }
 
 .navbar{
 	font-family: Lato, sans-serif;
-	background-color: $white-colour;
-	border-color: $white-colour;
-	color: $black-colour;
+	background-color: $blue-colour;
+	border-color: $blue-colour;
+	color: $beige-colour;
+	a:link,a:visited{color:$beige-colour !important;}
+	a:hover{color:$platinum-colour !important;}
 }
 
 p{
@@ -35,7 +39,7 @@ p{
 pagetitle{
 	font-family: Vollkorn, serif;
 	font-size: 72px;
-	color: $white-colour;
+	color: $beige-colour;
 }
 
 container{
@@ -71,8 +75,10 @@ a.btn-default{
 	border-color: $complementary_light;
 }
 
-// Footer %%%%%%%%%%%%%%%%%%%
+// Footer 
 
 .footer{
-	background-color: $footer-color;
+	background-color: $beige-colour;
+	color: $grey-colour;
+	a:link,a:hover,a:visited{color: $blue-colour}
 }

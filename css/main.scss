@@ -23,7 +23,7 @@ $grey-color-dark:  darken($grey-color, 25%);
 
 // Category colours
 
-$jekyll: #486c79;
+$software: #486c79;
 $transportation: #794854;
 $lightbackground: #e8dcd8;
 
@@ -59,9 +59,9 @@ $on-laptop:        800px;
 
 // Category divs
 
-.Jekyll{
+.Software{
   padding: 1%;
-  background-color: $jekyll;
+  background-color: $software;
   color: white;
 }
 

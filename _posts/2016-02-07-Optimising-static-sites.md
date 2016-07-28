@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Optimising static sites"
-categories: Jekyll
+categories: Software
 ---
 
 Static sites, are generally speaking, much faster than dynamic ones abound with javascript and server requests from the very start. This is because they are precompiled and served to users as they are on the web (excluding any special requests e.g. google map embeds). Hosting on a cloud based platform such as [GitHub](http://github.com){:target="_blank"}, [Amazon S3](https://aws.amazon.com/s3/){:target="_blank"} or [Digital Ocean](https://www.digitalocean.com/){:target="_blank"} also drastically improves speed since the content is hardly ever down and retrieved from the best possible geographic location.
