@@ -17,6 +17,10 @@ h1,h2,h3,h4{
 	color: $grey-colour;
 }
 
+hr{
+	border-color: inherit;
+}
+
 .jumbotron{
 	padding-top: 100px;
 	background-color: $red-colour;
