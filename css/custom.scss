@@ -73,10 +73,11 @@ guj{
 }
 
 a.btn-default{
-	background-color: inherit;
-	color: $complementary_light;
+	background-color: $blue-colour;
+	color: $beige-colour;
 	border-width: medium;
-	border-color: $complementary_light;
+	border-color: $blue-colour;
+	padding: 5px;
 }
 
 // Footer
@@ -87,4 +88,55 @@ a.btn-default{
 	background-color: $beige-colour;
 	color: $grey-colour;
 	a:link,a:hover,a:visited{color: $blue-colour}
+}
+
+/* ---- isotope ---- */
+
+.grid {
+  border: 0px solid #333;
+}
+
+/* clear fix */
+.grid:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+/* ---- .searchable-item ---- */
+
+ .searchable-item {
+  position: relative;
+  float: left;
+  margin: 5px;
+  padding: 20px;
+  color: #262524;
+  width: 30%;
+}
+
+.searchable-item > * {
+  margin: 0;
+  padding: 0;
+}
+
+input[type=text]{
+  padding: 12px 20px;
+  border-radius: 4px;
+  width: 100%;
+  border: 1px solid grey;
+}
+
+/* This is a cheeky hack to search for creating alternative search words / keywords that you don't want displayed, but still want searchable. See readme for more. */
+.hiddentext{
+  display:none;
+}
+
+/* Spotlight cards */
+
+.card{
+  padding: 10px;
+  background-color: inherit;
+  text-align: center;
+  border: 3px solid #ecf0f1;
+  /*border-radius: 7px;*/
 }
