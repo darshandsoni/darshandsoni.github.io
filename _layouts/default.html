@@ -1,0 +1,15 @@
+{% include head.html %}
+  <body>
+    <div class="container">
+      {% include header.html %}
+      <hr><br>
+    </div>
+      <div class="container">
+        <div id="content">
+          <h1>{{page.title}}</h1>
+          {{ content }}
+        </div>
+      </div>
+      <hr>
+    </body>
+</html>
