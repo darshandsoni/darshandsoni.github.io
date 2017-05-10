@@ -3,9 +3,34 @@ layout: default
 title: Curriculum Vitae
 ---
 
-<div class="toast"><b>Note:</b> My comprehensive C.V. is to be added in soon. My courses are listed below.</div>
+<div class="toast"><b>Note:</b> My comprehensive C.V. is still in development. Some projects and courses are listed below.</div>
 <br>
 You can also view a concise <a class="btn" target="_blank" href="/images/resume.pdf">résumé</a> instead. I am also available on <a class="btn" target="_blank" href="https://www.linkedin.com/in/darshan-soni-97b59565/">LinkedIn</a> and <a class="btn" target="_blank" href="https://www.xing.com/profile/Darshan_Soni?sc_o=mxb_p">Xing</a>. See my software repositories on <a target="_blank" class="btn" href="https://github.com/darshandsoni">GitHub</a>.
+
+<h2>Projects</h2>
+
+<div class="columns">
+{% for item in site.projects %}
+<div class="column col-lg-4 col-md-3">
+  <div class="card">
+    <div class="card-header">
+      <h1 class="card-title">{{item.title}}</h1>
+      <h2 class="card-subtitle">{{item.subtitle}}</h2>
+    </div>
+    <div class="card-image">
+      <img class="img-responsive" src="{{item.image}}">
+    </div>
+    <div class="card-body">
+      {{item.content}}
+      {% if item.website %}
+        <a class="btn btn-default" href="{{item.website}}">Project website</a>
+      {% endif %}
+    </div>
+  </div>
+</div>
+
+{% endfor %}
+</div>
 
 <h2>Courses</h2><hr>
 
